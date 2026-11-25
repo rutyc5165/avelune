@@ -4,75 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> יצירת קשר | AVELUNE</title>
-    <link rel="icon" type="image/png" href="../favicon.ico.png">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../css/contact.css"> 
-
+    <title>פרטים שעושים הבדל | AVELUNE</title>
+    <link rel="icon" type="image/png" href="favicon.ico.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
     <header>
-        <a href="home.html">
-            <img src="../image/לוגו.png" alt="לוגו" class="logo">
+        <a href="pages/home.html">
+            <img src="image/logo.png" alt="לוגו" class="logo">
         </a>
         <nav>
-            <a href="../index.html"></a>
-            <a href="home.html">HOME</a>
-            <a href="collection.html">COLLECTION</a>
-            <a href="premium.html">PREMIUM</a>
-            <a href="aboutus.html">ABOUT US</a>
-            <a href="contact.html">CONTACT</a>
-
+            <a href="index.html"></a>
+            <a href="pages/home.html">HOME</a>
+            <a href="pages/collection.html">COLLECTION</a>
+            <a href="pages/premium.html">PREMIUM</a>
+            <a href="pages/aboutus.html">ABOUT US</a>
+            <a href="pages/contact.html">CONTACT</a>
         </nav>
     </header>
-
-    <main class="contact-main">
-
-        <h1>בואו נדבר על עיצוב עם אופי</h1>
-        <p> נעצב את החלום שלכם יחד</p>
-        <form action="success.html" method="get">
-            <div class="contact-fields">
-                <div class="field">
-                    <label for="full-name">שם מלא</label>
-                    <input type="text" id="full-name" name="fullname" placeholder="לדוגמא:שרה כהן" required>
-                </div>
-
-                <div class="field">
-                    <label for="phone">טלפון</label>
-                    <input type="tel" id="phone" name="phone" placeholder="לדוגמא:0501234567"
-                        pattern="0[2-9]\d{7}|05\d{8}" title="נא להזין מספר טלפון ישראלי תקין, למשל: 0501234567"
-                        required>
-                </div>
-
-                <div class="field">
-                    <label for="email">כתובת מייל</label>
-                    <input type="email" id="email" name="email" placeholder="לדוגמא:name@gmail.com" required>
-                </div>
-
-                <div class="field">
-                    <label for="meeting-date">תאריך קביעת פגישה</label>
-                    <input type="date" id="meeting-date" name="date" required>
-                </div>
-
-                <div class="field">
-                    <label for="meeting-time">שעה נוחה לפגישה</label>
-                    <input type="time" id="meeting-time" name="time" required>
-                </div>
-            </div>
-            <div class="form-buttons">
-                <button type="submit">קביעת פגישה</button>
-                <button type="reset">איפוס טופס</button>
-            </div>
-        </form>
+    <main>
+        <div class="pickcherhome">
+            <img src="image/home-living.png" alt="סלון">
+            <img src="image/kids-room.png" alt="חדר ילדים">
+            <img src="image/bathroom.png" alt="אמבטיה">
+        </div>
     </main>
-
     <footer>
         <p>שעות פתיחה: ראשון-חמישי 10:00-22:00</p>
         <p>כתובת: שדרת האלגנטיות 111 הרצליה</p>
         <p>כל הזכויות שמורות &copy; AVELUNE</p>
         <nav>
-            <a href="aboutus.html">ABOUT US </a>
+            <a href="pages/aboutus.html">ABOUT US</a>
         </nav>
     </footer>
 </body>
