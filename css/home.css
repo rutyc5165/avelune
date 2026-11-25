@@ -1,0 +1,58 @@
+/* עיצוב ייעודי לדף הבית */
+
+.pickcherhome {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.pickcherhome img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: changeImage 12s infinite;
+}
+
+.pickcherhome img:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.pickcherhome img:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.pickcherhome img:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes changeImage {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+        transform: scale(1.05);
+    }
+
+    16% {
+        opacity: 1;
+        filter: blur(0);
+    }
+
+    33.33% {
+        opacity: 1;
+        filter: blur(0);
+    }
+
+    49.33% {
+        opacity: 0;
+        filter: blur(20px);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 0;
+        filter: blur(20px);
+    }
+}

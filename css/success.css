@@ -1,0 +1,25 @@
+/* עיצוב דף אישור שליחה (success.html) */
+
+.success {
+    border: 1px solid #d3ba7f;
+    width: 60%;
+    margin: 40px auto 20px;
+    padding: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #d3ba7f;
+    flex: 1;
+}
+
+.success h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.success p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+

@@ -1,0 +1,217 @@
+
+
+body {
+    background-color: #000000;
+    color: #d3ba7f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+
+
+header {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+
+.logo {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #d3ba7ffe;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+/* התאמה למחשב - 501px עד 1000px */
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+    .logo {
+        width: 130px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 12px 5px;
+        letter-spacing: 1px;
+    }
+        .pickcherhome {
+        height: 65vh;
+    }
+
+    .img {
+        grid-template-columns: repeat(3, 1fr);
+        width: 92%;
+        gap: 18px;
+    }
+
+    .img img {
+        height: 230px;
+    }
+
+    .contact-fields {
+        max-width: 90%;
+    }
+
+    .about-main {
+        width: 85%;
+    }
+
+    .about-title {
+        font-size: 32px;
+    }
+
+    .success {
+        width: 80%;
+    }
+}
+
+/* התאמה לטלוויזיה - מעל 1000px */
+
+@media screen and (min-width: 1001px) {
+    .logo {
+        width: 170px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+    
+    .pickcherhome {
+        height: 75vh;
+    }
+
+    .img {
+        grid-template-columns: repeat(4, 1fr);
+        width: 90%;
+        gap: 25px;
+    }
+
+    .img img {
+        height: 280px;
+    }
+
+    .about-main {
+        width: 75%;
+    }
+}
+
+/* התאמה לטלפון - עד 500px */
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    nav a {
+        font-size: 10px;
+        padding: 5px 0;
+        letter-spacing: 0;
+        text-align: center;
+    }
+        .pickcherhome {
+        height: 45vh;
+    }
+
+    .pickcherhome img {
+        object-fit: contain;
+    }
+
+    .img {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 95%;
+    }
+
+    .img img {
+        height: 180px;
+    }
+
+    .contact-main {
+        padding: 15px;
+    }
+
+    .contact-main h1 {
+        font-size: 24px;
+    }
+
+    .contact-fields {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .about-main {
+        width: 90%;
+    }
+
+    .about-title {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .about-section .p {
+        font-size: 20px;
+    }
+
+    .about-end {
+        font-size: 15px;
+    }
+
+    .success {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .success h1 {
+        font-size: 25px;
+    }
+
+
+    footer {
+        font-size: 12px;
+    }
+}

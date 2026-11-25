@@ -1,0 +1,55 @@
+/* עיצוב דף אודות (aboutus.html) */
+
+.about-main {
+    text-align: center;
+    width: 75%;
+    margin: 40px auto;
+}
+
+.about-title {
+    color: #d3ba7f;
+    font-size: 38px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.about-line {
+    width: 100px;
+    height: 1px;
+    background-color: #d3ba7f;
+    margin: 25px auto;
+}
+
+.about-section {
+    margin: 35px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #8f7848;
+}
+
+.about-section .p {
+    color: #d3ba7f;
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.about-section .p:hover {
+    color: #fff0bd;
+    text-shadow: 0 0 12px #d3ba7f;
+    transform: scale(1.05);
+    cursor: default;
+}
+
+.about-section .p-all {
+    color: #D8CBB3;
+}
+
+.about-end {
+    color: #d3ba7f;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 35px;
+}
+
+
+
